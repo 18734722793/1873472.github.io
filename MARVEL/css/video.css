@@ -1,0 +1,27 @@
+html{
+	font-size: 62.5%;
+}
+.media{
+	width: 60%;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 97;
+	display: none;
+}
+.X{
+	color: #000;
+	font-size: 3.6rem;
+	position: fixed;
+	top:20%;
+	right: 21.6%;
+	border-radius: 50%;
+	background: #FFFFFF;
+	border: 1px solid #fff;
+	padding: 0.2% 0.9%;
+	z-index: 98;
+	display: none;
+}

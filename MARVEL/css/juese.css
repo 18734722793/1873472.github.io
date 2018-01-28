@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+header{
+	width: 100%;
+	background: #000;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+header ul{
+	display: flex;
+	width: 60%;
+	height: 5.8rem;
+	margin: 0 auto;
+}
+header ul li aside{
+	position: absolute;
+	top: 5.8rem;
+	left: -1rem;
+	width: 8rem;
+	height: 12rem;
+	background: rgba(0,0,0,0.8);
+	z-index: 2;
+}
+header ul li aside p{
+	color: white;
+	font-size: 1.8rem;
+	line-height: 4rem !important;
+	text-align: center;
+	opacity: 0.7;
+}
+header ul li aside p:hover{
+	opacity: 1;
+}
+header ul li:not(.note){
+	font-size: 1.8rem;
+	line-height: 5.8rem;
+	color: white;
+	opacity: 0.6;
+	cursor: pointer;
+	list-style: none;
+	margin-left: 2.5rem;
+}
+header ul li:nth-of-type(4){
+	position: relative;
+}
+header ul li:nth-of-type(2){
+	opacity: 1;
+}
+header ul li:hover{
+	opacity: 1;
+}
+section{
+	width: 100%;
+}
+section aside{
+	position: relative;
+	background: rgba(0,0,0,0.85);
+}
+section aside div:nth-of-type(1){
+	width: 60%;
+	margin: 0 auto;
+}
+section aside div>img{
+	width: 100%;
+}
+#bj{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+}
+#tx{
+	position: absolute;
+	left: 21%;
+	bottom: 0;
+	width: 11%;
+	height: 13rem;   
+	transform:skew(-15deg);   
+	-webkit-transform: skew(-15deg);   
+	-moz-transform: skew(-15deg);   
+	-o-transform:skew(-15deg);   
+	-ms-transform:skew(-15deg);   
+	background-color: rgb(49,32,19);
+}
+#tximg{
+	width: 8%;
+	position: absolute;
+	left: 22.3%;
+	bottom: -2%;
+	border-radius: 50%;
+}
+.note img{
+	margin-top: 2%;
+}
+section article{
+	background-color: rgb(49,32,19);
+	color: white;
+}
+section article div{
+	padding: 2% 0;
+	width: 60%;
+	margin: 0 auto;
+}
+section article div p{
+	margin-bottom: 2%;
+	font-size: 1.6rem;
+	display: flex;
+	align-content: flex-start;
+}
+section article div p span{
+	line-height: 2.4rem;
+}
+section article div p span:nth-of-type(2){
+	display: inline-block;
+	width: 80%;
+}
+section article div p:nth-of-type(1){
+	font-size: 3.6rem;
+	margin-bottom: 0.5%;
+	font-weight: bold;
+}
+section article div p:nth-of-type(2){
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+section article div p:nth-of-type(3){
+	width: 90%;
+}
+footer{
+	background: rgb(0,0,0);
+	color: white;
+	padding: 3% 0;
+	text-align: center;
+}
+footer p{
+	font: 1.4rem/2.1rem "微软雅黑";
+}
+footer p:nth-of-type(1){
+	margin-bottom: 0.7%;
+}
