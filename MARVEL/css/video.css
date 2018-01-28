@@ -23,5 +23,6 @@ html{
 	border: 1px solid #fff;
 	padding: 0.2% 0.9%;
 	z-index: 98;
+	cursor: pointer;
 	display: none;
 }
