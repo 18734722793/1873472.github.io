@@ -15,7 +15,8 @@ setInterval(function(){
 },1)
 window.onload=function(){
 	var xtg=document.getElementsByClassName('xtg');
-	var h=xtg[0].getBoundingClientRect().width;
+	var w=document.documentElement.clientWidth;
+	var h=w/10;
 	var txts=document.getElementsByClassName('txt');
 	for(var i=0;i<xtg.length;i++){
 		xtg[i].index=i;
